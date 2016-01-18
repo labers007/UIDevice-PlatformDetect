@@ -93,10 +93,10 @@ DeviceType currentPlatform() {
     if (currentPlatform() == iPhone5c_GSM_CDMA) return @"iPhone 5c (GSM+CDMA)";
     if (currentPlatform() == iPhone5s_GSM)      return @"iPhone 5s (GSM)";
     if (currentPlatform() == iPhone5s_GSM_CDMA) return @"iPhone 5s (GSM+CDMA)";
-    if (currentPlatform() == iPhone6)           return @"iPhone 6 (GSM+CDMA)";
-    if (currentPlatform() == iPhone6Plus)       return @"iPhone 6 Plus (GSM+CDMA)";
-    if (currentPlatform() == iPhone6s)          return @"iPhone 6s (GSM+CDMA)";
-    if (currentPlatform() == iPhone6sPlus)      return @"iPhone 6s Plus (GSM+CDMA)";
+    if (currentPlatform() == iPhone6)           return @"iPhone 6";
+    if (currentPlatform() == iPhone6Plus)       return @"iPhone 6 Plus";
+    if (currentPlatform() == iPhone6s)          return @"iPhone 6s";
+    if (currentPlatform() == iPhone6sPlus)      return @"iPhone 6s Plus";
     if (currentPlatform() == iPodTouch1G)       return @"iPod Touch 1G";
     if (currentPlatform() == iPodTouch2G)       return @"iPod Touch 2G";
     if (currentPlatform() == iPodTouch3G)       return @"iPod Touch 3G";
