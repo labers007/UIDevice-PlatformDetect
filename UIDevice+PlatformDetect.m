@@ -133,7 +133,7 @@ DeviceType currentPlatform() {
     if (currentPlatform() == AppleTV3_2013)     return @"Apple TV 3 2013";
     if (currentPlatform() == Simulatorx32)      return @"Simulator 32";
     if (currentPlatform() == Simulatorx64)      return @"Simulator 64";
-    return platform;
+    return [NSString stringWithFormat:@"%@ %@",platform,@"unknown"];
 }
 
 + (NSString *) platformTypeSimple
@@ -148,7 +148,7 @@ DeviceType currentPlatform() {
         
         return [strs componentsJoinedByString:@" "];
     }
-    return nil;
+    return platform;
 }
 
 + (NSString *) networkType
