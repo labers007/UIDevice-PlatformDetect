@@ -1,6 +1,5 @@
 //
 //  UIDevice+PlatformDetect.h
-//  thehandsome
 //
 //  Created by Park Kyoung ho on 2016. 1. 15..
 //  Copyright © 2016 mac. All rights reserved.
